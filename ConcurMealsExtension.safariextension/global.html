@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>ConcurMeals</title>
+<script type="text/javascript">
+function respondToMessage(theMessageEvent) {
+  if (theMessageEvent.name === "getmax") {
+    var max = 100 * parseFloat(safari.extension.settings.mealmaxday.replace(/[^0-9]+/g,""));
+    theMessageEvent.target.page.dispatchMessage("themax", max);
+  }
+} 
+safari.application.addEventListener("message", respondToMessage, false);   
+</script>
+</head>
+</html>
