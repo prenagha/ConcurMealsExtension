@@ -15,7 +15,7 @@ then the total appears in red with the overage amount beside it in parentheses.
 Installation
 ============
 
-[Download the ConcurMeals Safari Extension](https://github.com/prenagha/ConcurMealsExtension/raw/master/SendTo.safariextz)
+[Download the ConcurMeals Safari Extension](https://github.com/prenagha/ConcurMealsExtension/raw/master/ConcurMeals.safariextz)
 
 Double-click the downloaded ConcurMeals.safariextz file to install it in Safari.
 
