@@ -32,5 +32,6 @@ Screenshots
 Changes
 =======
 
+v1.1: Developer Id change
 v1.0: Initial release
 
